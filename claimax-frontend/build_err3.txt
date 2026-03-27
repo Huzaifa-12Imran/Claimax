@@ -1,0 +1,16 @@
+[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+[33m[vite:css] @import must precede all other statements (besides @charset or empty @layer)
+6  |     Google Fonts (Inter & Roboto)
+7  |  ═══════════════════════════════════════════ */
+8  |  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+9  |  
+10 |  /* ═══════════════════════════════════════════[39m
+[32m✓[39m 1925 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                 [39m[1m[2m  1.25 kB[22m[1m[22m[2m │ gzip:   0.65 kB[22m
+[2mdist/[22m[35massets/index-DZgk9w9P.css  [39m[1m[2m 25.85 kB[22m[1m[22m[2m │ gzip:   5.46 kB[22m
+[2mdist/[22m[36massets/index-Ei0RJlbM.js   [39m[1m[2m365.17 kB[22m[1m[22m[2m │ gzip: 116.70 kB[22m
+[32m✓ built in 3.04s[39m

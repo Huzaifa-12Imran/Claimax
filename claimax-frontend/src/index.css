@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body {
+    background-color: #FAF8F5; /* Creamy */
+    color: #1A202C; /* Darker slate for readability */
+    overflow-x: hidden;
+  }
+
+  /* Selection styling */
+  ::selection {
+    background-color: #D4AF37;
+    color: #112240;
+  }
+}
+
+@layer components {
+  .section-pad {
+    @apply py-20 lg:py-32;
+  }
+
+  .btn-primary {
+    @apply bg-[#1A365D] text-white hover:bg-[#112240] transition-all duration-300 shadow-soft hover:shadow-soft-hover border border-transparent;
+  }
+
+  .btn-secondary {
+    @apply bg-transparent text-[#1A365D] border-2 border-[#1A365D] hover:bg-[#1A365D] hover:text-white transition-all duration-300;
+  }
+
+  .btn-gold {
+    @apply bg-[#D4AF37] text-[#112240] font-bold hover:bg-[#C5A028] transition-all duration-300 shadow-royal hover:shadow-lg border border-transparent;
+  }
+}
+
+/* Subtle cinematic noise overlay inspired by reference */
+.noise-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* Marquee Animation */
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
+.animate-marquee:hover {
+  animation-play-state: paused;
+}

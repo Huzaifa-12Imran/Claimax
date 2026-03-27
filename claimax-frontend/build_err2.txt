@@ -1,0 +1,31 @@
+[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+[33m[vite:css] @import must precede all other statements (besides @charset or empty @layer)
+6  |     Google Fonts (Inter & Roboto)
+7  |  ═══════════════════════════════════════════ */
+8  |  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap');
+   |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+9  |  
+10 |  /* ═══════════════════════════════════════════[39m
+[32m✓[39m 1925 modules transformed.
+[31mx[39m Build failed in 1.98s
+[31merror during build:
+[31msrc/components/HowItWorks.jsx (2:36): "UserHeart" is not exported by "node_modules/lucide-react/dist/esm/lucide-react.js", imported by "src/components/HowItWorks.jsx".[31m
+file: [36mC:/Users/smart/OneDrive/Desktop/Medical/claimax-frontend/src/components/HowItWorks.jsx:2:36[31m
+[33m
+1: import { motion } from 'framer-motion';
+2: import { TrendingUp, Wallet, Clock, UserHeart, Expand } from 'lucide-react';
+                                       ^
+3: 
+4: const benefits = [
+[31m
+    at getRollupError (file:///C:/Users/smart/OneDrive/Desktop/Medical/claimax-frontend/node_modules/rollup/dist/es/shared/parseAst.js:406:41)
+    at error (file:///C:/Users/smart/OneDrive/Desktop/Medical/claimax-frontend/node_modules/rollup/dist/es/shared/parseAst.js:402:42)
+    at Module.error (file:///C:/Users/smart/OneDrive/Desktop/Medical/claimax-frontend/node_modules/rollup/dist/es/shared/node-entry.js:17065:16)
+    at Module.traceVariable (file:///C:/Users/smart/OneDrive/Desktop/Medical/claimax-frontend/node_modules/rollup/dist/es/shared/node-entry.js:17477:29)
+    at ModuleScope.findVariable (file:///C:/Users/smart/OneDrive/Desktop/Medical/claimax-frontend/node_modules/rollup/dist/es/shared/node-entry.js:15090:39)
+    at Identifier.bind (file:///C:/Users/smart/OneDrive/Desktop/Medical/claimax-frontend/node_modules/rollup/dist/es/shared/node-entry.js:5450:40)
+    at Property.bind (file:///C:/Users/smart/OneDrive/Desktop/Medical/claimax-frontend/node_modules/rollup/dist/es/shared/node-entry.js:2832:23)
+    at ObjectExpression.bind (file:///C:/Users/smart/OneDrive/Desktop/Medical/claimax-frontend/node_modules/rollup/dist/es/shared/node-entry.js:2828:28)
+    at ArrayExpression.bind (file:///C:/Users/smart/OneDrive/Desktop/Medical/claimax-frontend/node_modules/rollup/dist/es/shared/node-entry.js:2828:28)
+    at VariableDeclarator.bind (file:///C:/Users/smart/OneDrive/Desktop/Medical/claimax-frontend/node_modules/rollup/dist/es/shared/node-entry.js:2832:23)[39m
