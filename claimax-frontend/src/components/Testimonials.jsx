@@ -4,7 +4,7 @@ import { ChevronLeft, ChevronRight, Star } from 'lucide-react';
 
 const testimonials = [
   {
-    quote: "Claimax reduced our claim denials by 68% in the first 60 days. Our revenue cycle has never been this clean. The coding team catches patterns our clinical staff never would have spotted manually.",
+    quote: "Claimax Solutions reduced our claim denials by 68% in the first 60 days. Our revenue cycle has never been this clean. The coding team catches patterns our clinical staff never would have spotted manually.",
     author: 'Dr. Sarah Mitchell',
     title: 'Cardiologist',
     practice: 'HeartCare Associates',
@@ -20,7 +20,7 @@ const testimonials = [
     color: 'bg-green-600',
   },
   {
-    quote: "Setup took 48 hours. The Claimax team handled everything seamlessly with our EHR. Our clean claim rate jumped from 74% to 98% and we've cut our billing staff overtime in half.",
+    quote: "Setup took 48 hours. The Claimax Solutions team handled everything seamlessly with our EHR. Our clean claim rate jumped from 74% to 98% and we've cut our billing staff overtime in half.",
     author: 'Dr. Aisha Thompson',
     title: 'OB/GYN',
     practice: "Women's Health Partners",

@@ -71,7 +71,7 @@ export default function Services() {
             <span className="w-12 h-[1px] bg-secondary" />
           </div>
           <h2 className="font-display font-medium text-4xl lg:text-5xl text-royal-900 mb-6 leading-tight">
-            Services Offered by Claimax
+            Services Offered by Claimax Solutions
           </h2>
           <p className="font-sans text-lg text-royal-900/70 max-w-2xl mx-auto font-light leading-relaxed">
             From patient registration to final payment, our end-to-end solutions reduce administrative burden and increase revenue.

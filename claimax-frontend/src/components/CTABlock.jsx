@@ -24,13 +24,13 @@ export default function CTABlock() {
           <div className="inline-flex items-center gap-3 mb-8">
             <span className="w-12 h-[1px] bg-secondary" />
             <span className="font-sans text-xs text-secondary font-semibold uppercase tracking-[0.2em]">
-              Why Choose Claimax?
+              Why Choose Claimax Solutions?
             </span>
             <span className="w-12 h-[1px] bg-secondary" />
           </div>
 
           <h2 className="font-display font-medium text-4xl lg:text-6xl text-white mb-16 leading-[1.1] tracking-tight">
-            Outsource Your Medical Billing <br className="hidden md:block"/>to Claimax Today.
+            Outsource Your Medical Billing <br className="hidden md:block"/>to Claimax Solutions Today.
           </h2>
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-px bg-royal-800/50 border border-royal-800/50 mb-16">

@@ -56,7 +56,7 @@ export default function HowItWorks() {
               <h4 className="font-display font-medium text-2xl text-royal-900 mb-2">Patient First</h4>
               <div className="w-12 h-[1px] bg-secondary mb-4" />
               <p className="font-sans text-sm text-royal-900/70 leading-relaxed font-light">
-                When you entrust your billing to Claimax, your entire practice is free to focus on what matters most.
+                When you entrust your billing to Claimax Solutions, your entire practice is free to focus on what matters most.
               </p>
             </div>
           </motion.div>
@@ -74,7 +74,7 @@ export default function HowItWorks() {
             </div>
             
             <h2 className="font-display font-medium text-4xl lg:text-5xl text-royal-900 mb-6 leading-tight">
-              Benefits of Outsourcing to Claimax
+              Benefits of Outsourcing to Claimax Solutions
             </h2>
             
             <p className="font-sans text-lg text-royal-900/70 mb-12 font-light leading-relaxed">

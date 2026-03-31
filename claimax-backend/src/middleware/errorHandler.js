@@ -8,7 +8,7 @@ function errorHandler(err, req, res, next) {
       ? 'An internal server error occurred. Please try again later.'
       : err.message || 'Internal Server Error';
 
-  console.error('[Claimax API Error]', err);
+  console.error('[Claimax Solutions API Error]', err);
   res.status(status).json({ error: message });
 }
 

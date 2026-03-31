@@ -83,7 +83,7 @@ function autoReplyHtml(data) {
       
       <div style="margin: 32px 0; padding: 24px; border: 1px solid #E5E7EB; border-radius: 8px;">
         <h3 style="margin-top: 0; font-size: 14px; text-transform: uppercase; letter-spacing: 0.05em; color: #6B7280;">Our Contact Details</h3>
-        <p style="margin-bottom: 8px;">📧 <a href="mailto:ntalha403@gmail.com" style="color:#0A84FF; text-decoration: none;">ntalha403@gmail.com</a></p>
+        <p style="margin-bottom: 8px;">📧 <a href="mailto:claimaxsolutions@outlook.com" style="color:#0A84FF; text-decoration: none;">claimaxsolutions@outlook.com</a></p>
         <p style="margin: 0;">📞 <a href="tel:+923346371564" style="color:#0A84FF; text-decoration: none;">+92 334 6371564</a></p>
       </div>
 

@@ -32,7 +32,7 @@ export default function Navbar() {
           {/* Brand - Elegant Serif */}
           <a href="#" className="flex items-center gap-2 group no-underline">
             <span className="font-display font-bold text-2xl tracking-tight text-royal-900 group-hover:text-secondary transition-colors duration-300">
-              Claimax
+              Claimax Solutions
             </span>
             <span className="w-1.5 h-1.5 rounded-full bg-secondary mt-1" />
           </a>
@@ -53,9 +53,6 @@ export default function Navbar() {
 
           {/* Actions */}
           <div className="hidden md:flex items-center gap-4">
-            <a href="#login" className="font-sans text-sm font-semibold text-royal-900 hover:text-secondary transition-colors uppercase tracking-widest no-underline pr-4 border-r border-royal-900/20">
-              Client Login
-            </a>
             <a href="#contact" className="btn-primary font-sans text-xs font-bold uppercase tracking-widest rounded-none px-6 py-3 no-underline">
               Request Audit
             </a>
@@ -112,9 +109,6 @@ export default function Navbar() {
               </div>
 
               <div className="mt-auto flex flex-col gap-4">
-                <a href="#login" className="btn-secondary w-full text-center font-sans text-xs font-bold uppercase tracking-widest rounded-none px-6 py-4 no-underline">
-                  Client Login
-                </a>
                 <a href="#contact" className="btn-primary w-full text-center font-sans text-xs font-bold uppercase tracking-widest rounded-none px-6 py-4 no-underline">
                   Request Audit
                 </a>

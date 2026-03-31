@@ -107,7 +107,7 @@ export default function ContactForm() {
 
             <div className="flex flex-col gap-6 mb-12">
               {[
-                { icon: Mail,    text: 'ntalha403@gmail.com', href: 'mailto:ntalha403@gmail.com' },
+                { icon: Mail,    text: 'claimaxsolutions@outlook.com', href: 'mailto:claimaxsolutions@outlook.com' },
                 { icon: Phone,   text: '+92 334 6371564', href: 'tel:+923346371564' },
                 { icon: MapPin,  text: 'New York, NY · National Coverage', href: null },
               ].map(({ icon: Icon, text, href }) => (

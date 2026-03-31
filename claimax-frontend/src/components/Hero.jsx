@@ -25,7 +25,7 @@ export default function Hero() {
             </div>
             
             <h1 className="font-display font-bold text-5xl lg:text-7xl text-royal-900 leading-[1.05] tracking-tight mb-8">
-              Outsource your medical billing to <span className="text-secondary italic">Claimax.</span>
+              Outsource your medical billing to <span className="text-secondary italic">Claimax Solutions.</span>
             </h1>
             
             <p className="font-sans text-lg lg:text-xl text-royal-900/70 leading-relaxed mb-12 max-w-2xl mx-auto lg:mx-0 font-light">

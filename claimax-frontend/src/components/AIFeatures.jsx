@@ -50,7 +50,7 @@ export default function AIFeatures() {
             <span className="w-12 h-[1px] bg-secondary" />
           </div>
           <h2 className="font-display font-medium text-4xl lg:text-5xl text-royal-900 mb-6 leading-tight">
-            Key Features of Claimax
+            Key Features of Claimax Solutions
           </h2>
           <p className="font-sans text-lg text-royal-900/70 max-w-2xl mx-auto font-light leading-relaxed">
             A secure, automated environment built to accelerate your revenue cycle and protect patient data.

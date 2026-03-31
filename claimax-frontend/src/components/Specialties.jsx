@@ -37,7 +37,7 @@ export default function Specialties() {
               <p className="font-sans font-semibold text-xs text-secondary uppercase tracking-[0.2em]">Our Network</p>
             </div>
             <h2 className="font-display font-medium text-4xl lg:text-5xl text-royal-900 mb-4 leading-tight">
-              Who Should Use Claimax?
+              Who Should Use Claimax Solutions?
             </h2>
             <p className="font-sans text-lg text-royal-900/70 font-light">
               We provide custom outsourcing solutions tailored specifically to the needs of these diverse healthcare providers.

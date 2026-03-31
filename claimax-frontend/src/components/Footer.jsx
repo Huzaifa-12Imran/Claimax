@@ -23,7 +23,7 @@ export default function Footer() {
           {/* Col 1: Brand */}
           <div className="pr-4 lg:col-span-1">
             <div className="flex items-center gap-2 mb-6">
-              <span className="font-display font-medium text-3xl text-white tracking-tight">Claimax</span>
+              <span className="font-display font-medium text-3xl text-white tracking-tight">Claimax Solutions</span>
               <span className="w-1.5 h-1.5 rounded-full bg-secondary mt-1" />
             </div>
             <p className="font-sans text-sm text-white/60 leading-relaxed font-light mb-8">
@@ -103,7 +103,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="font-sans text-xs text-white/50 tracking-wider uppercase">
-            © 2026 Claimax FZC. Reserved.
+            © 2026 Claimax Solutions FZC. Reserved.
           </p>
           <div className="flex items-center gap-2 font-sans text-xs text-secondary tracking-widest uppercase font-semibold">
             <ShieldCheck size={16} /> Data Secured
