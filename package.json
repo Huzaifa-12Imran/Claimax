@@ -1,0 +1,8 @@
+{
+  "name": "claimax",
+  "private": true,
+  "workspaces": [
+    "claimax-frontend",
+    "claimax-backend"
+  ]
+}
